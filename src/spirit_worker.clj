@@ -17,4 +17,4 @@
 (defn elicit
   "Send an argless fn job (thunk) to the spirit for evaluation on a separate thread"
   [spirit job]
-  (.put (spirit :queue) job))
+  (.put (:queue spirit) job))
