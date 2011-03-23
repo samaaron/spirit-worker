@@ -1,0 +1,9 @@
+.cake
+*.jar
+pom.xml
+lib/
+\.\#*
+\#*#
+tmp/
+native/
+
